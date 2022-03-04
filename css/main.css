@@ -1,0 +1,31 @@
+*, *::before, ::after {
+    box-sizing: border-box;
+}
+
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul > li {
+    list-style: none;
+}
+
+html, body {
+    font-size: 18px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+.cars-card {
+    border: 2px solid green;
+}
