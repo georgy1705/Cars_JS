@@ -15,6 +15,7 @@ ul > li {
 }
 
 html, body {
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     width: 100%;
 }
@@ -27,5 +28,41 @@ html, body {
 }
 
 .cars-card {
-    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #F5F5F5;
+    border: 2px solid #D3D3D3;
 }
+
+.card-info {
+    font-weight: 500;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__label {
+    display: flex;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.modal__label span {
+    margin-right: 20px;
+}
+
+.modal__label span::after {
+    content: ':';
+}
+
+.form-input {
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent transparent #000 transparent ;
+}
+
